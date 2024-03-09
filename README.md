@@ -66,3 +66,11 @@ The algorithm will run 30 times by default.
 ## Rotations and Shifts
 
 In order for the rotations and shifts to be applied to the objective functions, the file "data.pkl" must be in the same directory since it contains the rotation matrices applied to the functions.
+
+
+
+Full report here: 
+<a href="CI_A2_1603701.pdf">
+Particle Swarm Optimization: Classic or State of
+the Art?
+ </a>
