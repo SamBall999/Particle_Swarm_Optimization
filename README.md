@@ -17,25 +17,25 @@ To run the inertia weight PSO algorithm, the command line format is as follows:
 *python3 ipso.py [objective_function_flag] [topology]*
 
 The objective function flags are defined as follows:
--sph : Spherical function
--a : Ackley function
--m : Michalewicz function
--k : Katsuura function
--sh : Shubert function 
+- -sph : Spherical function
+- -a : Ackley function
+- -m : Michalewicz function
+- -k : Katsuura function
+- -sh : Shubert function 
 
 The rotated variants are then denoted with an r suffix:
 
--ar : Ackley function (Rotated and Shifted)
--mr : Michalewicz function (Rotated and Shifted)
--kr : Katsuura function (Rotated and Shifted)
--shr : Shubert function (Rotated and Shifted)
+- -ar : Ackley function (Rotated and Shifted)
+- -mr : Michalewicz function (Rotated and Shifted)
+- -kr : Katsuura function (Rotated and Shifted)
+- -shr : Shubert function (Rotated and Shifted)
 
 
 The choice of topology is as follows:
 
-0 - global (GBest) topology
-1 - local ring topology (LBest)
-2- local stochastic star topology (not used for experiments)
+- 0 - global (GBest) topology
+- 1 - local ring topology (LBest)
+- 2- local stochastic star topology (not used for experiments)
 
 
 For example, to run the ackley function with a global best topology:
